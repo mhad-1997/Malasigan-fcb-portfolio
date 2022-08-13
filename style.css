@@ -1,0 +1,137 @@
+/*
+Syntax for CSS
+
+Selector {
+	property: value;
+}
+
+
+*/
+/* in CSS we have SPECIFICITY RULE 
+Higher Priority(Id)
+(Class)
+(Element)
+Least Priority(Universal)
+
+
+*/
+
+/* Universal Selector */
+* { 
+	font-family: "Roboto", sans-serif;
+}
+
+/* Element Selector */
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	
+	height: 250px;
+	width: 250px;
+	border: 5px solid #F5B800;
+	border-radius: 20%
+}
+p {
+	/*height: 10vh;*/
+	/*width: 30vh;*/
+	font-size: 4vh;
+}
+
+/*Id Selector*/
+#landing {
+	/*viewheight*/
+	height: 100vh;
+	/*flexible responsive layouts from left to right*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#gallery {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/*Class Selector*/
+.tools {
+	border: 5px solid white;
+	height: 200px;
+	width:  75%;
+	margin: 20px;
+	padding: 25px;
+	font-style: solid white;
+}
+
+/*makes the scroling smooth */
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*
+
+Bootstrap spaces
+
+m => margin
+p => padding
+
+t => top
+s => for start or left
+e => for end or right
+b => bottom
+
+x => x-axis
+y => y-axis
+
+1-5 or auto
+
+
+mx-auto
+
+
+bg-warning
+
+primary - blue
+secondary - gray
+warning - yellow
+danger - red
+info - light blue
+success - green
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
